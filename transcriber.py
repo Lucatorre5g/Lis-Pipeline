@@ -4,7 +4,7 @@ import os
 
 class TranscriptionModel:
 
-    def __init__(self,model_path="it_core_news_lg") -> None:
+    def __init__(self,model_path) -> None:
         self.model = EncDecCTCModel.restore_from(str(model_path))
 
     def process(self, wav_list:list):
