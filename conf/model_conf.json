@@ -1,0 +1,10 @@
+{
+    "config":{
+        "transcribe":{
+            "path": ""
+        },
+        "translate":{
+            "path": ""
+        }
+    }
+}
